@@ -26,6 +26,24 @@ Here, Qtt & Qt+1t+1 are present state & next state respectively. So, T flip-flop
  
 From the above characteristic table, we can directly write the next state equation as Q(t+1)=T′Q(t)+TQ(t)′ ⇒Q(t+1)=T⊕Q(t)
 
+**Truth Table**
+
+![Screenshot 2024-12-04 183145](https://github.com/user-attachments/assets/23178bf3-0ca7-4e21-8024-0028f1c984e8)
+
+**Procedure**
+
+ /*1.Type the program in Quartus software to implement the T Flip-Flop with positive
+ edge-triggered clock using Verilog.
+
+ 2.Compile and run the program to check for any errors.
+ 
+ 3.Generate the RTL schematic to observe the generated logic circuit and save it for
+ documentation.
+ 
+ 4.Create input (T, clk) and output (Q, Q_bar) nodes in the simulation tool.
+
+ 5.Simulate the design to generate the timing diagram for different combinations of
+ input. *
 
 **PROGRAM**
 
@@ -33,16 +51,19 @@ From the above characteristic table, we can directly write the next state equati
 RegisterNumber:24000305
 
 
-![Screenshot 2024-12-03 135901](https://github.com/user-attachments/assets/b875a4a1-e58e-4fc2-a125-2b9b90e160b2)
+![Screenshot 2024-12-04 183205](https://github.com/user-attachments/assets/cee4e140-b025-4023-a188-610a75398919)
+
 
 
 **RTL LOGIC FOR FLIPFLOPS**
 
 
-![Screenshot 2024-12-03 135526](https://github.com/user-attachments/assets/8d5cd268-439c-49e3-9c01-2449679381d9)
+![Screenshot 2024-12-04 183217](https://github.com/user-attachments/assets/5b78ee1e-966b-4eb8-81cd-c4093ac7adc8)
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-![Screenshot 2024-12-03 135542](https://github.com/user-attachments/assets/1dbfd6df-ac60-40f4-9062-0627e151e2d7)
+![Screenshot 2024-12-04 183231](https://github.com/user-attachments/assets/51eb7a93-a2a6-431e-9cac-59f2ee03f2bb)
+
 
 **RESULTS**Thus the given T flipflop using verilog and validating their functionality using their functional tables are verified.
