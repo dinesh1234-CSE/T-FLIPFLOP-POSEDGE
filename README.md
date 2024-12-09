@@ -51,7 +51,28 @@ From the above characteristic table, we can directly write the next state equati
 RegisterNumber:24000305
 
 
-![Screenshot 2024-12-04 183205](https://github.com/user-attachments/assets/cee4e140-b025-4023-a188-610a75398919)
+module tflip (t, clk, rst, q);
+  
+  input t, clk, rst;
+  
+  output reg q;
+
+  
+  always @(posedge clk or posedge rst) 
+
+begin
+
+    if (rst)
+      q <= 0; // Reset the flip-flop
+    else if (t==0)
+      q <= q; 
+     else
+        q<=~q;
+  
+  end
+
+endmodule
+
 
 
 
