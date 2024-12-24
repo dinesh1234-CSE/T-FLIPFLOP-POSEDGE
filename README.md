@@ -84,7 +84,8 @@ endmodule
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-![Screenshot 2024-12-04 183231](https://github.com/user-attachments/assets/51eb7a93-a2a6-431e-9cac-59f2ee03f2bb)
+
+![Screenshot_2024-12-24_225928 1](https://github.com/user-attachments/assets/66c1150e-da1b-4aff-b706-9f6984e24c76)
 
 
 **RESULTS**Thus the given T flipflop using verilog and validating their functionality using their functional tables are verified.
